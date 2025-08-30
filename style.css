@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "Barlow";
+    src: url("fonts/Barlow/Barlow-Regular.ttf") format("truetype");
+    font-weight: bold;
+    font-style:normal;
+}
+@font-face{
+    font-family: "Outfit";
+    src: url("fonts/Outfit/Outfit-Regular.ttf") format("truetype");
+    font-weight: Bolder;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Anton";
+    src: url("fonts/Anton/Anton-Regular.ttf") format("truetype");
+    font-weight: Bolder;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Changa";
+    src: url("fonts/Changa_One/ChangaOne-Regular.ttf") format("truetype");
+    font-weight: Bolder;
+    font-style: normal;
+}
+.page {
+    display: none;
+
+  }
+.page.active {
+    display: block;
+}
+.hp-main{
+    background-color:#90d5ff;
+    padding: 10px;
+    height: 400vh;
+    font-family: "Barlow";
+    font-weight: bolder;
+}
+.hp-img-1{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+.hp-cat-img{
+    border-radius: 10px;
+    width: 450px;
+    height: 350px;
+
+}
+
+.p9-pg-1-c-1 {
+    background-image: url("assets/project-1/p1-banner.jpg");
+    background-size:cover ;
+    width: 100vw;
+    color: white;
+    background-position: center;  
+    background-repeat: no-repeat;
+
+}
+
+.p1-hp-h1{
+  font-family:"Outfit";
+  font-weight: bolder;
+  font-size: 130px;
+  text-align: center;
+}
+
+.p9-pg-1-c-2 {
+    padding: 20px;
+    background-color: white;
+    font-family: Roboto;
+    text-align: center;
+
+}
+.p9-pg-2-c-1 {
+    
+    background-color: #b80d0d;
+    
+    
+    
+    height: 40vh;
+    width: 100vw;
+    color: white;
+    background-size: cover;
+    padding: 20px;
+
+}
+.p9-pg-2-c-1-1{
+  
+  margin-left:40px;
+  font-family: "Changa";
+  .h{
+    font-size: 75px;
+    font-family: "Anton";
+  }
+  .p{
+    font-family: "Outfit";
+    font-size: 15px;
+  }
+  .p2{
+    font-size: 30px;
+  }
+
+}
+.grid-header {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .grid-episodes {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+  .episode-card {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 12px;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  .episode-card h5 {
+    margin: 0;
+    font-size: 16px;
+  }
+  .episode-card p {
+    margin: 3px 0;
+    font-size: 13px;
+  }
+  .ep-time {
+    font-size: 11px;
+    color: gray;
+  }
+  .p9-images {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .p8-card1-img {
+    width: 100vw;
+    height: 100%;
+}
+.p8-card2-1 {
+    padding: 20px;
+}
+.p8-pg-2-card-1-vid {
+    width: 100vw;
+    height: 40vh;
+}
+.p3-hp-h1{
+  
+  font-family: "Outfit";
+  font-size: 50px;
+}
+.p3-hp-h2{
+  font-family: "Outfit";
+  color: whitesmoke;
+  font-size: 90px;
+  font-weight: bolder;
+}
+.p3-hp-h3{
+  font-family: "Outfit";
+  color: #ea8a8a;
+  font-size:30px;
+}
+.p3-hp-h4{
+  color: #685454;
+  font-size: 15px;
+}
+.p3-hp-btn{
+  background-color: #0881a3;
+}
+body {
+  background-color: #f5f7fa;
+}
+.band-card {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+.band-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.15);
+}
+.band-img {
+  max-height: 80px;
+  object-fit: contain;
+}
+.band-details {
+  padding: 60px 20px;
+  
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+.imgs1 {
+  width: 250px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.imgs:hover {
+  transform: scale(1.1);  
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4); 
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+
+.hp-cat-img {
+  max-width: 120px;
+  height: auto;
+}
+
+
+.hp-img-1 {
+  max-width: 250px;
+  height: auto;
+}
+
+
+@media (max-width: 576px) {
+  h1.fs-2 {
+    font-size: 1.5rem;
+  }
+  h2.fs-4 {
+    font-size: 1.2rem;
+  }
+  .hp-cat-img {
+    max-width: 90px;
+  }
+}
