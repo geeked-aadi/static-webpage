@@ -51,11 +51,17 @@ Each page is designed for a different theme and can be used as standalone templa
 ##  Repo Structure  
 static-webpage/
 │── music-page/
+
 │── podcast-page/
+
 │── bookstore-page/
+
 │── online-store-page/
+
 │── yoga-page/
+
 │── conference-page/
+
 │── README.md
 
 
